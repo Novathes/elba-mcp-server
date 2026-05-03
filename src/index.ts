@@ -2,6 +2,6 @@
 import { startServer } from './server.js';
 
 startServer().catch((error) => {
-  console.error('Failed to start server:', error);
+  console.error(error instanceof Error ? error.message : 'Failed to start Elba MCP server');
   process.exit(1);
 });
