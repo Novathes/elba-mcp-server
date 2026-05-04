@@ -19,7 +19,7 @@ describe('getConfig', () => {
     const config = getConfig();
 
     expect(config.token).toBe('elba_test_token_123');
-    expect(config.apiBaseUrl).toBe('https://api.elba.ai');
+    expect(config.apiBaseUrl).toBe('https://api.elba.kolsetu.com');
   });
 
   it('returns config with custom base URL when ELBA_API_BASE_URL is set', () => {

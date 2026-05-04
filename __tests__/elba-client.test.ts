@@ -9,7 +9,7 @@ const mockFetch = vi.fn();
 vi.stubGlobal('fetch', mockFetch);
 
 describe('ElbaClient', () => {
-  const baseUrl = 'https://api.elba.ai';
+  const baseUrl = 'https://api.elba.kolsetu.com';
   const token = 'elba_test_token_123';
   let client: ElbaClient;
 

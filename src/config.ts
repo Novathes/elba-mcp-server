@@ -25,6 +25,6 @@ export function getConfig(): ElbaConfig {
 
   return {
     token,
-    apiBaseUrl: process.env.ELBA_API_BASE_URL || 'https://api.elba.ai',
+    apiBaseUrl: process.env.ELBA_API_BASE_URL || 'https://api.elba.kolsetu.com',
   };
 }
