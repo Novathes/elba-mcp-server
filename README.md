@@ -9,20 +9,20 @@
 > [!NOTE]
 > **Early preview** — This project is under active development. See the [roadmap](#roadmap) below for planned tools.
 
-[Elba](https://elba.ai) is a voice AI agent platform. This MCP server lets you create, manage, and test voice AI agents entirely from your coding environment — no dashboard required.
+[Elba](https://elba.kolsetu.com) is a voice AI agent platform. This MCP server lets you create, manage, and test voice AI agents entirely from your coding environment — no dashboard required.
 
 ## Quick Start
 
 ### 1. Get your integration token
 
-Go to [Elba Dashboard](https://app.elba.ai) → **Settings** → **Integrations** → Copy your token.
+Go to [Elba Dashboard](https://elba.kolsetu.com) → **Settings** → **Integrations** → Copy your token.
 
 ### 2. Add to your MCP client
 
 #### Claude Code
 
 ```bash
-claude mcp add elba -- -e ELBA_INTEGRATION_TOKEN=your-token-here npx -y @novathes/elba-mcp-server
+claude mcp add elba -- -e ELBA_INTEGRATION_TOKEN=your-token-here npx -y @Kolsetu-Opensource/elba-mcp-server
 ```
 
 #### Claude Desktop
@@ -34,7 +34,7 @@ Add to `~/Library/Application Support/Claude/claude_desktop_config.json` (macOS)
   "mcpServers": {
     "elba": {
       "command": "npx",
-      "args": ["-y", "@novathes/elba-mcp-server"],
+      "args": ["-y", "@Kolsetu-Opensource/elba-mcp-server"],
       "env": {
         "ELBA_INTEGRATION_TOKEN": "your-token-here"
       }
@@ -52,7 +52,7 @@ Add to `.cursor/mcp.json` in your project root:
   "mcpServers": {
     "elba": {
       "command": "npx",
-      "args": ["-y", "@novathes/elba-mcp-server"],
+      "args": ["-y", "@Kolsetu-Opensource/elba-mcp-server"],
       "env": {
         "ELBA_INTEGRATION_TOKEN": "your-token-here"
       }
@@ -71,7 +71,7 @@ Add to `.vscode/settings.json`:
     "servers": {
       "elba": {
         "command": "npx",
-        "args": ["-y", "@novathes/elba-mcp-server"],
+        "args": ["-y", "@Kolsetu-Opensource/elba-mcp-server"],
         "env": {
           "ELBA_INTEGRATION_TOKEN": "your-token-here"
         }
@@ -111,7 +111,7 @@ Add to `.vscode/settings.json`:
 
 The server authenticates using an Elba integration token:
 
-1. Log in to [app.elba.ai](https://app.elba.ai)
+1. Log in to [Elba](https://elba.kolsetu.com)
 2. Go to **Settings → Integrations**
 3. Generate or copy your integration token
 4. Set it as `ELBA_INTEGRATION_TOKEN` in your MCP client config
@@ -129,7 +129,7 @@ Tokens are scoped to your organization — they can only access agents and data 
 
 ```bash
 # Clone the repo
-git clone https://github.com/Novathes/elba-mcp-server.git
+git clone https://github.com/Kolsetu-Opensource/elba-mcp-server.git
 cd elba-mcp-server
 
 # Install dependencies
@@ -157,4 +157,4 @@ MIT — see [LICENSE](LICENSE) for details.
 
 ---
 
-Built by [Kolsetu GmbH](https://kolsetu.com) · [Elba](https://elba.ai)
+Built by [Kolsetu GmbH](https://kolsetu.com) · [Elba](https://elba.kolsetu.com)
