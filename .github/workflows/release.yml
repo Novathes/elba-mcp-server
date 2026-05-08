@@ -13,7 +13,7 @@ jobs:
   release:
     name: Release
     # Disabled until npm publishing is set up. To enable:
-    # 1. Create @novathes org on npmjs.com
+    # 1. Create @kolsetu-opensource org on npmjs.com
     # 2. Add NPM_TOKEN secret to repo settings
     # 3. Remove the `if: false` line below
     if: false

@@ -1,5 +1,5 @@
 {
-  "name": "@novathes/elba-mcp-server",
+  "name": "@kolsetu-opensource/elba-mcp-server",
   "version": "0.1.0",
   "description": "MCP server for Elba — manage voice AI agents from any AI coding assistant",
   "type": "module",

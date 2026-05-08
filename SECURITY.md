@@ -34,7 +34,7 @@ Vulnerabilities in the **Elba platform or backend** itself are out of scope for 
 
 ## Supported Versions
 
-Only the **latest release** of `@novathes/elba-mcp-server` receives security patches. We recommend always running the most recent version.
+Only the **latest release** of `@kolsetu-opensource/elba-mcp-server` receives security patches. We recommend always running the most recent version.
 
 | Version        | Supported          |
 | -------------- | ------------------ |

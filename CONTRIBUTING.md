@@ -1,4 +1,4 @@
-# Contributing to @novathes/elba-mcp-server
+# Contributing to @kolsetu-opensource/elba-mcp-server
 
 Welcome! We're glad you're interested in contributing to the Elba MCP server. Whether you're fixing a bug, improving docs, or proposing a new tool — this guide will help you get started.
 

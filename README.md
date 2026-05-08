@@ -2,7 +2,7 @@
 
 > Manage voice AI agents from Claude Code, Cursor, or any MCP-compatible assistant.
 
-[![npm version](https://img.shields.io/npm/v/@novathes/elba-mcp-server?color=blue)](https://www.npmjs.com/package/@novathes/elba-mcp-server)
+[![npm version](https://img.shields.io/npm/v/@kolsetu-opensource/elba-mcp-server?color=blue)](https://www.npmjs.com/package/@kolsetu-opensource/elba-mcp-server)
 [![CI](https://github.com/Novathes/elba-mcp-server/actions/workflows/ci.yml/badge.svg)](https://github.com/Novathes/elba-mcp-server/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -22,7 +22,7 @@ Go to [Elba Dashboard](https://elba.kolsetu.com) → **Settings** → **Integrat
 #### Claude Code
 
 ```bash
-claude mcp add elba -- -e ELBA_INTEGRATION_TOKEN=your-token-here npx -y @Kolsetu-Opensource/elba-mcp-server
+claude mcp add elba -- -e ELBA_INTEGRATION_TOKEN=your-token-here npx -y @kolsetu-opensource/elba-mcp-server
 ```
 
 #### Claude Desktop
@@ -34,7 +34,7 @@ Add to `~/Library/Application Support/Claude/claude_desktop_config.json` (macOS)
   "mcpServers": {
     "elba": {
       "command": "npx",
-      "args": ["-y", "@Kolsetu-Opensource/elba-mcp-server"],
+      "args": ["-y", "@kolsetu-opensource/elba-mcp-server"],
       "env": {
         "ELBA_INTEGRATION_TOKEN": "your-token-here"
       }
@@ -52,7 +52,7 @@ Add to `.cursor/mcp.json` in your project root:
   "mcpServers": {
     "elba": {
       "command": "npx",
-      "args": ["-y", "@Kolsetu-Opensource/elba-mcp-server"],
+      "args": ["-y", "@kolsetu-opensource/elba-mcp-server"],
       "env": {
         "ELBA_INTEGRATION_TOKEN": "your-token-here"
       }
@@ -71,7 +71,7 @@ Add to `.vscode/settings.json`:
     "servers": {
       "elba": {
         "command": "npx",
-        "args": ["-y", "@Kolsetu-Opensource/elba-mcp-server"],
+        "args": ["-y", "@kolsetu-opensource/elba-mcp-server"],
         "env": {
           "ELBA_INTEGRATION_TOKEN": "your-token-here"
         }
