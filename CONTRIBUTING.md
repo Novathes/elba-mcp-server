@@ -78,6 +78,23 @@ npm run dev
 3. Wait for CI checks to pass.
 4. A maintainer will review your PR — we aim to respond within a few business days.
 
+## Commit Messages
+
+We use [Conventional Commits](https://www.conventionalcommits.org/). All commit messages must follow this format:
+
+```
+<type>(<scope>): <description>
+```
+
+**Types:** `feat`, `fix`, `docs`, `chore`, `refactor`, `test`, `ci`, `perf`
+
+Examples:
+- `feat(tools): add deploy_widget tool`
+- `fix(auth): handle expired token gracefully`
+- `docs: update roadmap status`
+
+Commits are validated locally via `commitlint` (enforced by a git hook).
+
 ## Code Style
 
 - **ESLint** enforces our code style. Run `npm run lint` to check.
@@ -92,6 +109,21 @@ Please use the [bug report issue template](https://github.com/Novathes/elba-mcp-
 - Your MCP client configuration (sanitize any tokens)
 - Steps to reproduce the issue
 - Expected vs. actual behavior
+
+## Developer Certificate of Origin (DCO)
+
+All contributions must include a `Signed-off-by` line in the commit message, certifying that you wrote or have the right to submit the code under the project's license.
+
+```bash
+git commit -s -m "feat(tools): add deploy_widget tool"
+```
+
+This adds a line like:
+```
+Signed-off-by: Your Name <your.email@example.com>
+```
+
+By signing off, you agree to the [Developer Certificate of Origin](https://developercertificate.org/).
 
 ## License
 

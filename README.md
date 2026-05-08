@@ -83,13 +83,13 @@ Add to `.vscode/settings.json`:
 
 ## Roadmap
 
-### Phase 1 — Core Agent Management (in progress)
+### Phase 1 — Core Agent Management ✅
 
 | Tool | Description | Status |
 |------|-------------|--------|
-| `list_agents` | List all agents in your organization | 🚧 In progress |
-| `upsert_agent` | Create or update a voice AI agent | Planned |
-| `list_voices` | Browse available voices with descriptions | Planned |
+| `list_agents` | List all agents in your organization | ✅ Done |
+| `upsert_agent` | Create or update a voice AI agent | ✅ Done |
+| `list_voices` | Browse available voices with descriptions | ✅ Done |
 
 ### Phase 2 — Deploy & Test
 
