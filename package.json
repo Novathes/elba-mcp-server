@@ -31,10 +31,18 @@
   },
   "keywords": [
     "mcp",
+    "mcp-server",
     "model-context-protocol",
     "voice-ai",
     "elba",
-    "ai-agents"
+    "ai-agents",
+    "claude",
+    "cursor",
+    "vscode",
+    "conversational-ai",
+    "voice-agents",
+    "ai-tools",
+    "llm-tools"
   ],
   "author": "Kolsetu GmbH",
   "homepage": "https://github.com/Novathes/elba-mcp-server#readme",
