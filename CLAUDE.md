@@ -8,11 +8,12 @@ This is an open-source MCP (Model Context Protocol) server for Elba, a voice AI 
 
 ## Current Status
 
-This is an early scaffold. The project structure, build tooling, and CI are in place, but:
-- No MCP tools are registered yet (server starts but exposes nothing)
-- Auth validation (`src/auth.ts`) is a placeholder
-- `src/tools/list-agents.ts` exists as a stub but is not wired into the server
-- All tests are `.todo` placeholders
+Phase 1 tools are implemented and wired into the server:
+- `list_agents` — lists all agents in the organization
+- `list_voices` — lists available voices
+- `upsert_agent` — creates or updates a voice AI agent
+
+Auth validation (`src/auth.ts`) checks token format (must start with `elba_`). Full token validation happens server-side via the Elba API.
 
 ## Architecture
 

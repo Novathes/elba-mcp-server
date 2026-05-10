@@ -3,9 +3,34 @@ updates:
   - package-ecosystem: github-actions
     directory: /
     schedule:
-      interval: daily
+      interval: weekly
+    commit-message:
+      prefix: "ci"
+      include: "scope"
+    groups:
+      github-actions:
+        patterns:
+          - "*"
+    labels:
+      - dependencies
+      - github-actions
 
   - package-ecosystem: npm
     directory: /
     schedule:
-      interval: daily
+      interval: weekly
+    commit-message:
+      prefix: "chore"
+      include: "scope"
+    groups:
+      dev-dependencies:
+        dependency-type: development
+        patterns:
+          - "*"
+      production-dependencies:
+        dependency-type: production
+        patterns:
+          - "*"
+    labels:
+      - dependencies
+      - npm
