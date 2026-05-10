@@ -1,5 +1,5 @@
 # Default owners for everything in the repo
-* @Novathes/maintainers
+* @Kolsetu-Opensource/maintainers
 
 # CI and security workflows require additional review
-.github/ @Novathes/maintainers
+.github/ @Kolsetu-Opensource/maintainers

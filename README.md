@@ -8,13 +8,13 @@
 <p align="center">
   <a href="https://www.npmjs.com/package/@kolsetu-opensource/elba-mcp-server"><img src="https://img.shields.io/npm/v/@kolsetu-opensource/elba-mcp-server?color=blue&label=npm" alt="npm version"></a>
   <a href="https://www.npmjs.com/package/@kolsetu-opensource/elba-mcp-server"><img src="https://img.shields.io/npm/dm/@kolsetu-opensource/elba-mcp-server?color=blue" alt="npm downloads"></a>
-  <a href="https://github.com/Novathes/elba-mcp-server/actions/workflows/ci.yml"><img src="https://github.com/Novathes/elba-mcp-server/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
-  <a href="https://github.com/Novathes/elba-mcp-server/actions/workflows/codeql.yml"><img src="https://github.com/Novathes/elba-mcp-server/actions/workflows/codeql.yml/badge.svg" alt="CodeQL"></a>
-  <a href="https://github.com/Novathes/elba-mcp-server/actions/workflows/osv-scanner.yml"><img src="https://github.com/Novathes/elba-mcp-server/actions/workflows/osv-scanner.yml/badge.svg" alt="OSV Scanner"></a>
-  <a href="https://github.com/Novathes/elba-mcp-server/actions/workflows/osv-scanner-pr.yml"><img src="https://github.com/Novathes/elba-mcp-server/actions/workflows/osv-scanner-pr.yml/badge.svg" alt="OSV Scanner PR"></a>
-  <a href="https://securityscorecards.dev/viewer/?uri=github.com/Novathes/elba-mcp-server"><img src="https://api.securityscorecards.dev/projects/github.com/Novathes/elba-mcp-server/badge" alt="OpenSSF Scorecard"></a>
+  <a href="https://github.com/Kolsetu-Opensource/elba-mcp-server/actions/workflows/ci.yml"><img src="https://github.com/Kolsetu-Opensource/elba-mcp-server/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="https://github.com/Kolsetu-Opensource/elba-mcp-server/actions/workflows/codeql.yml"><img src="https://github.com/Kolsetu-Opensource/elba-mcp-server/actions/workflows/codeql.yml/badge.svg" alt="CodeQL"></a>
+  <a href="https://github.com/Kolsetu-Opensource/elba-mcp-server/actions/workflows/osv-scanner.yml"><img src="https://github.com/Kolsetu-Opensource/elba-mcp-server/actions/workflows/osv-scanner.yml/badge.svg" alt="OSV Scanner"></a>
+  <a href="https://github.com/Kolsetu-Opensource/elba-mcp-server/actions/workflows/osv-scanner-pr.yml"><img src="https://github.com/Kolsetu-Opensource/elba-mcp-server/actions/workflows/osv-scanner-pr.yml/badge.svg" alt="OSV Scanner PR"></a>
+  <a href="https://securityscorecards.dev/viewer/?uri=github.com/Kolsetu-Opensource/elba-mcp-server"><img src="https://api.securityscorecards.dev/projects/github.com/Kolsetu-Opensource/elba-mcp-server/badge" alt="OpenSSF Scorecard"></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
-  <a href="https://github.com/Novathes/elba-mcp-server/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
+  <a href="https://github.com/Kolsetu-Opensource/elba-mcp-server/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
   <a href="https://img.shields.io/node/v/@kolsetu-opensource/elba-mcp-server"><img src="https://img.shields.io/node/v/@kolsetu-opensource/elba-mcp-server" alt="Node.js version"></a>
 </p>
 
@@ -200,10 +200,10 @@ This project takes supply chain security seriously:
 
 | Measure | Status |
 |---------|--------|
-| [OpenSSF Scorecard](https://securityscorecards.dev/viewer/?uri=github.com/Novathes/elba-mcp-server) | [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Novathes/elba-mcp-server/badge)](https://securityscorecards.dev/viewer/?uri=github.com/Novathes/elba-mcp-server) |
-| [CodeQL Analysis](https://github.com/Novathes/elba-mcp-server/actions/workflows/codeql.yml) | Static analysis on every push & PR |
+| [OpenSSF Scorecard](https://securityscorecards.dev/viewer/?uri=github.com/Kolsetu-Opensource/elba-mcp-server) | [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Kolsetu-Opensource/elba-mcp-server/badge)](https://securityscorecards.dev/viewer/?uri=github.com/Kolsetu-Opensource/elba-mcp-server) |
+| [CodeQL Analysis](https://github.com/Kolsetu-Opensource/elba-mcp-server/actions/workflows/codeql.yml) | Static analysis on every push & PR |
 | [OSV Scanner](https://osv.dev/) | Dependency vulnerability scanning via [Google OSV](https://google.github.io/osv-scanner/) |
-| [Dependency Review](https://github.com/Novathes/elba-mcp-server/actions/workflows/dependency-review.yml) | Block PRs introducing known-vulnerable packages |
+| [Dependency Review](https://github.com/Kolsetu-Opensource/elba-mcp-server/actions/workflows/dependency-review.yml) | Block PRs introducing known-vulnerable packages |
 | [StepSecurity Harden Runner](https://github.com/step-security/harden-runner) | Audit all outbound network calls in CI |
 | Pinned Actions | All GitHub Actions pinned to full SHA commits |
 | npm Provenance | Published with [npm provenance](https://docs.npmjs.com/generating-provenance-statements) for verifiable builds |
@@ -226,7 +226,7 @@ Tokens are scoped to your organization — they can only access agents and data 
 
 ```bash
 # Clone the repo
-git clone https://github.com/Novathes/elba-mcp-server.git
+git clone https://github.com/Kolsetu-Opensource/elba-mcp-server.git
 cd elba-mcp-server
 
 # Install dependencies
@@ -284,8 +284,8 @@ Your token may have been revoked or expired. Generate a new one from [Elba Dashb
 
 ### Still stuck?
 
-- [Open a discussion](https://github.com/Novathes/elba-mcp-server/discussions) for questions
-- [File an issue](https://github.com/Novathes/elba-mcp-server/issues/new?template=bug_report.yml) for bugs
+- [Open a discussion](https://github.com/Kolsetu-Opensource/elba-mcp-server/discussions) for questions
+- [File an issue](https://github.com/Kolsetu-Opensource/elba-mcp-server/issues/new?template=bug_report.yml) for bugs
 
 ## Contributing
 
