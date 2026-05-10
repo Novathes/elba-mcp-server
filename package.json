@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Novathes/elba-mcp-server.git"
+    "url": "git+https://github.com/Kolsetu-Opensource/elba-mcp-server.git"
   },
   "publishConfig": {
     "provenance": true,
@@ -45,9 +45,9 @@
     "llm-tools"
   ],
   "author": "Kolsetu GmbH",
-  "homepage": "https://github.com/Novathes/elba-mcp-server#readme",
+  "homepage": "https://github.com/Kolsetu-Opensource/elba-mcp-server#readme",
   "bugs": {
-    "url": "https://github.com/Novathes/elba-mcp-server/issues"
+    "url": "https://github.com/Kolsetu-Opensource/elba-mcp-server/issues"
   },
   "license": "MIT",
   "lint-staged": {

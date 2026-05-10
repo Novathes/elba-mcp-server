@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 
 This project uses [changesets](https://github.com/changesets/changesets) for versioning.
-See [GitHub Releases](https://github.com/Novathes/elba-mcp-server/releases) for the full history.
+See [GitHub Releases](https://github.com/Kolsetu-Opensource/elba-mcp-server/releases) for the full history.
 
 ## 0.1.0
 

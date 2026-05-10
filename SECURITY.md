@@ -6,7 +6,7 @@
 
 Instead, use GitHub Security Advisories to report them privately:
 
-👉 [**Report a vulnerability**](https://github.com/Novathes/elba-mcp-server/security/advisories/new)
+👉 [**Report a vulnerability**](https://github.com/Kolsetu-Opensource/elba-mcp-server/security/advisories/new)
 
 We will acknowledge your report within **48 hours** and work with you to understand the issue and plan a fix. We'll keep you informed of our progress throughout the process.
 

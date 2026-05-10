@@ -2,12 +2,12 @@
 
 Welcome! We're glad you're interested in contributing to the Elba MCP server. Whether you're fixing a bug, improving docs, or proposing a new tool — this guide will help you get started.
 
-If you're looking for a good entry point, check out issues tagged [`good first issue`](https://github.com/Novathes/elba-mcp-server/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
+If you're looking for a good entry point, check out issues tagged [`good first issue`](https://github.com/Kolsetu-Opensource/elba-mcp-server/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
 
 ## Before You Start
 
 - **Bug fixes and documentation improvements** — Go ahead and open a PR directly.
-- **New MCP tools or architectural changes** — Please [open an issue](https://github.com/Novathes/elba-mcp-server/issues/new) first so we can discuss the design before you invest time writing code.
+- **New MCP tools or architectural changes** — Please [open an issue](https://github.com/Kolsetu-Opensource/elba-mcp-server/issues/new) first so we can discuss the design before you invest time writing code.
 
 This keeps everyone aligned and avoids wasted effort.
 
@@ -35,7 +35,7 @@ This keeps everyone aligned and avoids wasted effort.
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/Novathes/elba-mcp-server.git
+git clone https://github.com/Kolsetu-Opensource/elba-mcp-server.git
 cd elba-mcp-server
 
 # 2. Install dependencies
@@ -103,7 +103,7 @@ Commits are validated locally via `commitlint` (enforced by a git hook).
 
 ## Reporting Bugs
 
-Please use the [bug report issue template](https://github.com/Novathes/elba-mcp-server/issues/new) and include:
+Please use the [bug report issue template](https://github.com/Kolsetu-Opensource/elba-mcp-server/issues/new) and include:
 
 - Which MCP client you're using (Claude Code, Cursor, VS Code, etc.)
 - Your MCP client configuration (sanitize any tokens)
