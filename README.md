@@ -11,6 +11,7 @@
   <a href="https://github.com/Novathes/elba-mcp-server/actions/workflows/ci.yml"><img src="https://github.com/Novathes/elba-mcp-server/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
   <a href="https://github.com/Novathes/elba-mcp-server/actions/workflows/codeql.yml"><img src="https://github.com/Novathes/elba-mcp-server/actions/workflows/codeql.yml/badge.svg" alt="CodeQL"></a>
   <a href="https://github.com/Novathes/elba-mcp-server/actions/workflows/osv-scanner.yml"><img src="https://github.com/Novathes/elba-mcp-server/actions/workflows/osv-scanner.yml/badge.svg" alt="OSV Scanner"></a>
+  <a href="https://github.com/Novathes/elba-mcp-server/actions/workflows/osv-scanner-pr.yml"><img src="https://github.com/Novathes/elba-mcp-server/actions/workflows/osv-scanner-pr.yml/badge.svg" alt="OSV Scanner PR"></a>
   <a href="https://securityscorecards.dev/viewer/?uri=github.com/Novathes/elba-mcp-server"><img src="https://api.securityscorecards.dev/projects/github.com/Novathes/elba-mcp-server/badge" alt="OpenSSF Scorecard"></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
   <a href="https://github.com/Novathes/elba-mcp-server/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
